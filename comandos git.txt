@@ -1,0 +1,47 @@
+### configurar usuario do git
+git config --global user.email "ivan.ojc88@gmail.com"
+git config --global user.name "IvanNOliveira"
+
+
+### verificar configurações
+
+$ git config --global --list
+
+ git init
+
+
+git clone https://github.com/IvanNOliveira/Cursos-Git.git
+
+
+git add nome-do-arquivo
+
+git add --all
+
+git commit -m "comentario do commit"
+
+git status
+
+git push
+
+git push -u origin nome-da-branch
+
+git pull 
+
+git branch nome-da-branch
+
+git branch
+
+git checkout nome-da-branch
+
+git checkout -b nome-da-branch
+
+git push origin --delete super-funcionalidade
+
+### associar a branch local com a do servidor
+git branch --set-upstream-to=origin/func-1 func-1
+
+
+
+
+
+
