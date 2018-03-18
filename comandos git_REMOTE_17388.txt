@@ -3,7 +3,8 @@ git config --global user.email "ivan.ojc88@gmail.com"
 git config --global user.name "IvanNOliveira"
 
 
-### verificar configurações
+
+### verificar configuraÃ§Ãµes
 
 $ git config --global --list
 
@@ -45,13 +46,13 @@ git merge
 
 git branch -d develop
 
-
->>>>>>>>> Temporary merge branch 2
+ 
 
 ##Kdiff3
 git config --global --add merge.tool kdiff3
 git config --global --add mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"
 git mergetool
+
 
 
 

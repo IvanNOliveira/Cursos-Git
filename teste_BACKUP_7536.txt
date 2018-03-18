@@ -1,4 +1,7 @@
 teste
+<<<<<<< HEAD
 editando dinovo
+=======
 agora não vai dar muito certo mesmo
+>>>>>>> 2575547637bafcfd078f4a4edc092f609c47ff97
 alterado no  site
