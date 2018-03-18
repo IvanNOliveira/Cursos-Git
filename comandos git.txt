@@ -20,6 +20,9 @@ git add --all
 
 git commit -m "comentario do commit"
 
+git reset --hard
+
+git reset HEAD~1
 git status
 
 git push
