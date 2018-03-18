@@ -3,6 +3,7 @@ git config --global user.email "ivan.ojc88@gmail.com"
 git config --global user.name "IvanNOliveira"
 
 
+
 ### verificar configurações
 
 $ git config --global --list
@@ -51,6 +52,7 @@ git branch -d develop
 git config --global --add merge.tool kdiff3
 git config --global --add mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"
 git mergetool
+
 
 
 
