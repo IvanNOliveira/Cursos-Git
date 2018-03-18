@@ -56,7 +56,22 @@ git mergetool
 ## tag 
 git tag
 git tag nome-da-tag
+git tag nome-da-tag número-do-commit
 git push origin --tags 
+git tag -d release1
+git push origin --delete release1
+
+
+## Stash
+
+git stash 
+git stash apply
+git stash list
+git stash drop
+git stash apply stash@{1}
+git stash pop
+
+
 
 
 
