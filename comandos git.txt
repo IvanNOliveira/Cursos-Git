@@ -3,7 +3,8 @@ git config --global user.email "ivan.ojc88@gmail.com"
 git config --global user.name "IvanNOliveira"
 
 
-### verificar configurações
+
+### verificar configuraÃ§Ãµes
 
 $ git config --global --list
 
@@ -40,6 +41,17 @@ git push origin --delete super-funcionalidade
 ### associar a branch local com a do servidor
 git branch --set-upstream-to=origin/func-1 func-1
 
+
+git merge
+
+git branch -d develop
+
+ 
+
+##Kdiff3
+git config --global --add merge.tool kdiff3
+git config --global --add mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"
+git mergetool
 
 
 
