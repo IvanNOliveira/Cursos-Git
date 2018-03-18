@@ -1,4 +1,4 @@
-### configurar usuario do git
+﻿### configurar usuario do git
 git config --global user.email "ivan.ojc88@gmail.com"
 git config --global user.name "IvanNOliveira"
 
@@ -51,6 +51,11 @@ git branch -d develop
 git config --global --add merge.tool kdiff3
 git config --global --add mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"
 git mergetool
+
+## tag 
+git tag
+git tag nome-da-tag
+git push origin --tags 
 
 
 
