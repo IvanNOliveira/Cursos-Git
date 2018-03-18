@@ -75,7 +75,8 @@ git stash apply stash@{1}
 git stash pop
 
 
-
+git config --global alias.st status
+git cofig  --global --unset alias.st
 
 
 
