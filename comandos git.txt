@@ -3,6 +3,7 @@ git config --global user.email "ivan.ojc88@gmail.com"
 git config --global user.name "IvanNOliveira"
 
 
+
 ### verificar configurações
 
 $ git config --global --list
@@ -56,6 +57,7 @@ git mergetool
 git tag
 git tag nome-da-tag
 git push origin --tags 
+
 
 
 
